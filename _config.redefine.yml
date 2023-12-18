@@ -27,7 +27,7 @@ defaults:
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/anonymous_icon.svg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -111,10 +111,10 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/JoyBack.jpg # light mode
-    dark: /images/JoyBack.jpg # dark mode
+    light: /images/wallhaven-wqery6-light.webp # light mode
+    dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: Welcome to StoneHoo's blog
   # Home banner subtitle
   subtitle:
     text: [] # subtitle text, array
@@ -150,14 +150,14 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: true
+    enable: enable
     # Social links
     links:
-      github:  https://github.com/geekqq # your GitHub URL
+      github: https://github.com/geekqq # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
-      email:  # your email
+      twitter: https://twitter.com/stonehoo # your twitter URL
+      email: jinwei1014@gmail.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -218,7 +218,7 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement: # Announcement text
+    announcement: 民主自由和吃饭一样重要 # Announcement text
     links:
       # Archives: 
       #   path: /archives 
