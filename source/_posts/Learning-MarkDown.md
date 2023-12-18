@@ -58,9 +58,9 @@ schema = graphene.Schema(query=Query)
 >
 >-- <cite>Bob Ross</cite>
 
-Do the algorithm everyday to sharpen my skills but still not get me a job!
+## Do the algorithm everyday to sharpen my skills but still not get me a job!
 
-[![Check-if-prime-number](/source/images/is-prime.jpeg)](http://ozak.ca)
+[![Check-if-prime-number](/source/images/is-prime.jpeg)](https://ozak.ca)
 
 MarkDown also support html tags<br>see more text
 
@@ -69,3 +69,29 @@ MarkDown also support html tags<br>see more text
 - [ ] Task #1
 - [x] Task #2
 - [ ] Task #3
+
+---
+
+| name | current state | next state |
+| :------ | :------ | :------ |
+| Green | Green | Yellow |
+| Yellow | Green | Yellow |
+
+<details>
+    <summary>Section Header</summary>
+    Section body text here.
+
+    - hello
+    - test
+    - world!
+</details>
+
+## Foot Notes
+
+Happy Trees Are Happy [^1]
+
+## Footer
+[^1]: By Bob Ross
+
+## emoji
+[破涕为笑]
