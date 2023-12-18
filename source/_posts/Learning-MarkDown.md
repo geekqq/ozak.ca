@@ -2,6 +2,9 @@
 title: Learning MarkDown
 date: 2023-12-18 11:25:17
 tags:
+    - MarkDown
+    - learning
+    - coding
 ---
 # This is my first line of markdown
 ## This is the second line of markdown
