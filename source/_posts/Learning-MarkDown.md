@@ -60,7 +60,7 @@ schema = graphene.Schema(query=Query)
 
 ## Do the algorithm everyday to sharpen my skills but still not get me a job!
 
-[![Check-if-prime-number](/source/images/is-prime.jpeg)](https://ozak.ca)
+[![Check-if-prime-number](images/is-prime.jpeg)](https://ozak.ca)
 
 MarkDown also support html tags<br>see more text
 
