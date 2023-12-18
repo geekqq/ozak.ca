@@ -173,7 +173,7 @@ navbar:
     Tags: Tags #取名随意
     icon: fa-solid fa-tags #图标
     path: /tags/ #链接
-  
+    
   # Auto hide navbar
   auto_hide: false
   # Navbar background color
@@ -195,10 +195,10 @@ navbar:
     About: 
         icon: fa-regular fa-user
         submenus:
-          Me: /about
+    #     Me: /about
           Github: https://github.com/geekqq
           Blog: https://www.ozak.ca
-          Friends: /friends
+    #     Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
