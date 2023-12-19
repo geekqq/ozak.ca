@@ -4,6 +4,8 @@ date: 2023-12-19 12:05:31
 tags:
     - hexo
     - memo
+    - commands
+    - blog
 ---
 
 ## Update my hexo blog
