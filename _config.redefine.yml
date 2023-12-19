@@ -155,7 +155,7 @@ home_banner:
     links:
       github: https://github.com/geekqq # your GitHub URL
       instagram: https://instagram.com/stonehoo # your Instagram URL
-      zhihu:  # your ZhiHu URL
+      linkedin-in: https://www.linkedin.com/in/stonehoo # your ZhiHu URL
       twitter: https://twitter.com/stonehoo # your twitter URL
       email: jinwei1014@gmail.com # your email
       # ...... # you can add more
@@ -188,12 +188,15 @@ navbar:
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
     About: 
-        icon: fa-regular fa-user
-        submenus:
-    #     Me: /about
-          Github: https://github.com/geekqq
-          Blog: https://www.ozak.ca
+      icon: fa-regular fa-user
+      submenus:
+    #   Me: /about
+        Github: https://github.com/geekqq
+        Blog: https://www.ozak.ca
     #     Friends: /friends
+    Gallary: #取名随意
+      icon: fa-solid fa-image #图标
+      path: /masonry/
 
     Friends: 
       path: /links/ 
