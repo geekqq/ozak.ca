@@ -171,8 +171,8 @@ home_banner:
 navbar:
   tags:
     Tags: Tags #取名随意
-      icon: fa-solid fa-tags #图标
-      path: /tags/ #链接
+    icon: fa-solid fa-tags #图标
+    path: /tags/ #链接
 
   # Auto hide navbar
   auto_hide: false
