@@ -169,11 +169,6 @@ home_banner:
 # NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/home/navbar
 navbar:
-  tags:
-    Tags: Tags #取名随意
-    icon: fa-solid fa-tags #图标
-    path: /tags/ #链接
-
   # Auto hide navbar
   auto_hide: false
   # Navbar background color
@@ -199,6 +194,10 @@ navbar:
           Github: https://github.com/geekqq
           Blog: https://www.ozak.ca
     #     Friends: /friends
+
+    Friends: 
+      path: /links/ 
+      icon: fa-regular fa-house # can be empty
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:

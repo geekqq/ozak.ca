@@ -1,0 +1,17 @@
+- links_category: Elites
+  has_thumbnail: true
+  list: 
+    - name: Stone's portfolio site
+      link: https://stoni.me
+      description: tech skills and resume
+      avatar: https://u.cubeupload.com/Geekz/me600avatar.jpg
+      thumbnail: https://u.cubeupload.com/Geekz/stonemethumbnail.jpg # has_thumbnail 为 true 时才需要
+
+- links_category: Elites
+  has_thumbnail: true
+  list: 
+    - name: Stone's another portfolio site
+      link: https://stonehoo.vercel.app
+      description: tech skills and resume 
+      avatar: https://u.cubeupload.com/Geekz/me600avatar.jpg
+      thumbnail: https://u.cubeupload.com/Geekz/stonehoovercelappscr.jpg # has_thumbnail 为 true 时才需要
