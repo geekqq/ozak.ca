@@ -198,6 +198,9 @@ navbar:
     Friends: 
       path: /links/ 
       icon: fa-regular fa-house # can be empty
+    Tags: 
+      path: /tags/ 
+      icon: fa-regular fa-tags # can be empty
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
