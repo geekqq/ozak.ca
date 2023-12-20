@@ -11,7 +11,6 @@ tags:
 
 ```
 nohup http-server &
-
 ```
 nohop will make the service is still running when quit the ssh session, the & at the end will make it run in the background
 
@@ -19,6 +18,5 @@ nohop will make the service is still running when quit the ssh session, the & at
 
 ```
 pkill -f "http-server"
-
 ```
 The service will run at port 8080 by default.
