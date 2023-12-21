@@ -14,6 +14,5 @@ tags:
 [![ChacoCulture_ZH-CN2098865361_1920x1080.md.jpg](https://photo.geekkk.com/images/2023/12/20/ChacoCulture_ZH-CN2098865361_1920x1080.md.jpg)](https://photo.geekkk.com/image/ql0)
 [![BalloonsTurkey_ZH-CN2791109350_1920x1080.md.jpg](https://photo.geekkk.com/images/2023/12/20/BalloonsTurkey_ZH-CN2791109350_1920x1080.md.jpg)](https://photo.geekkk.com/image/jSL)
 [![BigBendAnniv_ZH-CN3445097868_1920x1080.md.jpg](https://photo.geekkk.com/images/2023/12/20/BigBendAnniv_ZH-CN3445097868_1920x1080.md.jpg)](https://photo.geekkk.com/image/NL9)
-[![BigBendAnniv_ZH-CN3445097868_1920x1080.md.jpg](http://192.168.1.155:8080/wallpaper.jpg)](https://photo.geekkk.com/image/NL9)
 
 
