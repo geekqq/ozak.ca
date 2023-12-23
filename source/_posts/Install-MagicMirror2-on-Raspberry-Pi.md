@@ -39,7 +39,6 @@ scrot 命令后面也可以跟上保存截图的位置，不加的话就保存�
 }
 ```
 2. 在修改天气 modules 的时候也费了不少时间，给出的一个city list 太大了，打开没办法搜索，找不到自己的城市，后来还是在这个直接在网上搜了一下也能用，可以用这个链接直接去输入城市名字，然后 URL 里就会有该城市的 ID
-
 链接是这个[https://openweathermap.org/city/5219722](https://openweathermap.org/city/5219722)
 
 3. 安装了 pm2 之后可以自动在 pi 重启的时候自动启动 pm2，然后 pm2 可以自动启动 magic mirror：命令是这样的：
@@ -53,7 +52,7 @@ pm2 log mm #show the logs
 pm2 show mm #show the mm process info
 ```
 这里有官方的 pm2自动开启教程：
-![pm2 自动开机 Magic Mirror](https://docs.magicmirror.builders/configuration/autostart.html#using-pm2)
+[pm2 自动开机 Magic Mirror](https://docs.magicmirror.builders/configuration/autostart.html#using-pm2)
 
 目前弄好之后的截图是这样子的：
 ![2023-12-23-085807_1080x1920_scrot.md.png](http://192.168.1.235:8145/images/2023/12/23/2023-12-23-085807_1080x1920_scrot.md.png)
