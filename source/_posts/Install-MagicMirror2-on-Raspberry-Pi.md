@@ -25,7 +25,7 @@ DISPLAY=:0 scrot
 ```
 scrot 命令后面也可以跟上保存截图的位置，不加的话就保存在当前文件夹下面。
 这是我刚刚保存的截图：
-![magic mirror screen shot](http://photo.geekkk.com:8145/images/2023/12/23/2023-12-22-220515_1080x1920_scrot_MagicMirror2_screenshot.md.png)
+![magic mirror screen shot](https://photo.geekkk.com/images/2023/12/23/2023-12-22-220515_1080x1920_scrot_MagicMirror2_screenshot.md.png)
 
 需要注意的几个坑是：
 1. 默认的 clock 显示在左上角，但是字体很小，这个需要在/MagicMirror/modules/default/clock 目录下的 css 文件里面，添加一个字体大小，我用的是这个，可以正常工作：
@@ -55,4 +55,4 @@ pm2 show mm #show the mm process info
 [pm2 自动开机 Magic Mirror](https://docs.magicmirror.builders/configuration/autostart.html#using-pm2)
 
 目前弄好之后的截图是这样子的：
-![2023-12-23-085807_1080x1920_scrot.md.png](http://photo.geekkk.com:8145/images/2023/12/23/2023-12-23-085807_1080x1920_scrot.md.png)
+![085807_1080x1920_scrot.md.png](https://photo.geekkk.com/images/2023/12/23/2023-12-23-085807_1080x1920_scrot.md.png)
