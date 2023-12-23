@@ -42,6 +42,17 @@ scrot 命令后面也可以跟上保存截图的位置，不加的话就保存�
 
 链接是这个[https://openweathermap.org/city/5219722](https://openweathermap.org/city/5219722)
 
+3. 安装了 pm2 之后可以自动在 pi 重启的时候自动启动 pm2，然后 pm2 可以自动启动 magic mirror：命令是这样的：
+``` bash
+pm2 restart mm
 
+pm2 stop mm
+
+pm2 log mm #show the logs
+
+pm2 show mm #show the mm process info
+```
+这里有官方的 pm2自动开启教程：
+[pm2 自动开机 Magic Mirror](https://docs.magicmirror.builders/configuration/autostart.html#using-pm2)
 
 
