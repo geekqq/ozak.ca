@@ -53,6 +53,7 @@ pm2 log mm #show the logs
 pm2 show mm #show the mm process info
 ```
 这里有官方的 pm2自动开启教程：
-[pm2 自动开机 Magic Mirror](https://docs.magicmirror.builders/configuration/autostart.html#using-pm2)
+![pm2 自动开机 Magic Mirror](https://docs.magicmirror.builders/configuration/autostart.html#using-pm2)
 
-
+目前弄好之后的截图是这样子的：
+![2023-12-23-085807_1080x1920_scrot.md.png](http://192.168.1.235:8145/images/2023/12/23/2023-12-23-085807_1080x1920_scrot.md.png)
