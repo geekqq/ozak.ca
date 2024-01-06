@@ -13,8 +13,7 @@ tags:
 ```
 vmware-hgfsclient #显示共享文件夹的名字，以便 mount 的时候使用，比如我的名字是 vmshare，下一步的命令就是
 mkdir -p /mnt/hgfs #创建一个挂载点。
-$ sudo vmhgfs-fuse .host:/vmshare /mnt/hgfs/ -o allow_other -o uid=1000
-
+$ sudo vmhgfs-fuse .host:/vmshare /mnt/hgfs/ -o allow_other -o uid=1000 
 ```
 就这么简单就好了。
 参考了这个帖子的讨论内容：
