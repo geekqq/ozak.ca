@@ -6,7 +6,7 @@ tags:
     - wordpress
 ---
 
-原以为很复杂，因为有图片什么的，其实就这么几步就搞定了，用了一个叫做exo-migrator-wordpress 的插件。
+原以为很复杂，因为有图片什么的，其实就这么几步就搞定了，用了一个叫做hexo-migrator-wordpress 的插件。
 以下是官网上的内容：
 
 WordPress
