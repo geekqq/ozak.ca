@@ -58,13 +58,13 @@ sudo vim clock_style.css
     font-size: 50px;
 }
 ```
-之后是修改天气模块。天气是有两个模块的，一个是当前天气，type: "current" 和未来天气预报type: "forcast"，这两个都要讲location的代码改为Hayward的城市代码是5355933，然后是需要添加openweather的apiKey，我的是
+之后是修改天气模块。天气是有两个模块的，一个是当前天气，type: "current" 和未来天气预报type: "forecast"，这两个都要将location的代码改为Hayward的城市代码是5355933，然后是需要添加openweather的apiKey，我的是
 
 "1f14e8a6046e4e74465fd6d337f84354"
 
 之后还要修改单位为华氏度，在config括号里添加一行tempUnits: "imperial" 就可以了。
 
-之后是添加第三方模块，我加了MMM-bitcoin-portfolio和MMM-wallpaper两个模块。第一个是用来显示比特币的实时价格的。刚开始有个问题，安装完之后没有办法启动MagicMirror，查看了log是发现，这个模块安装之后少安装一个request的依赖，导致模块无法启动，解决办法很简单，cd 进入到MMM-bitcoin-portfolio模块的目录下面，使用npm install request 就可以了。之后就顺利启动MagicMirror了，然后是修改字体大小，默认的也是太小了。
+之后是添加第三方模块，我加了MMM-bitcoin-portfolio和MMM-wallpaper两个模块。第一个是用来显示比特币的实时价格的。刚开始有个问题，安装完之后没有办法启动MagicMirror，查看了log，我发现，这个模块安装之后少安装一个request的依赖，导致模块无法启动，解决办法很简单，cd进入到MMM-bitcoin-portfolio模块的目录下面，使用npm install request 就可以了。之后就顺利启动MagicMirror了，然后是修改字体大小，默认的也是太小了。
 ``` Bash
 sudo vim ~/MagicMirror/modules/MMM-bitcoin-portfolio/MMM-bitcoin-portfolio.css
 ```
@@ -78,6 +78,6 @@ sudo vim ~/MagicMirror/modules/MMM-bitcoin-portfolio/MMM-bitcoin-portfolio.css
 最后添加了一个wallpaper，上面有好几个wallpaper的module，我用的是[kolbyjack/MMM-Wallpaper](https://github.com/kolbyjack/MMM-Wallpaper) 的这个。他这个可以选择我的iCloud的共享相册里的内容，作为背景墙，轮换展示我里面的照片。安装好之后只需要把iCloud里的shared album的id填写在source里面就可以了。非常简单。无需其它设置。
 
 最后的样子就是这样的：
-![magcimirror screenshot](/images/mmsc3.png)
+![magicmirror screenshot](/images/mmsc3.png)
 
 
