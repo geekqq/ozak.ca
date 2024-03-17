@@ -53,3 +53,32 @@ project_directory/
 ```
 
 最后用npm start 就可以启动服务了。
+
+不过这么一番操作之后发现在同一个网络里用局域网ip无法打开页面，但是ssh进去服务器用localhost:3003可以顺利加载页面。也就是说网络配置应该是有问题的。这时候chatGPT给出了一个命令，一次性的解决了问题：
+``` bash
+sudo iptables -A INPUT -p tcp --dport 3005 -j ACCEPT
+```
+
+一不做二不休，这样虽然成功了，但是用起来还是比较麻烦的，我就想呢能不能干脆给打包成一个docker image镜像文件，然后这样在用的时候只要一行命令就可以搞定了。继续深耕chatGPT，主要就是要写一个Dockerfile。好久没有用docker了，具体怎么写也给忘记了。不过GPT给出了一个模板，测试之后基本就是这么写的。
+```
+FROM --platform=linux/amd64 node:alpine3.10
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3003
+CMD ["npm", "start"]
+```
+
+有了Dockerfile之后就可以build 自己的image了。
+
+```
+docker build -t osaks/tempconversionsite .
+
+docker push osaks/tempconversionsite
+```
+
+之后要用的时候直接就docker run 就可以了：
+```
+docker run --name tempsite -dp 3003:3003 osaks/tempconversionsite
+```
