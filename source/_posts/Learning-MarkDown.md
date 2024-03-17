@@ -1,5 +1,5 @@
 ---
-title: Learning MarkDown
+title: Learning MarkDown and Create New Post
 date: 2023-12-18 11:25:17
 tags:
     - MarkDown
@@ -12,6 +12,20 @@ sticky: 999
 ### This is the third
 #### This is the fourth
 ##### This is the fifth
+
+### Create a new post!
+
+```
+hexo new "new post"
+```
+
+### Insert an image in the post!
+
+put your image file in the images/ directory, then insert the image using below syntax
+
+```
+![alt info](/images/image.jpeg)
+```
 
 Instructions for setting up GraphQL in a Django Project.
 
