@@ -56,5 +56,11 @@ services:
 chmod +755 icloud/
 ```
 
+Updated on Nov 30 2024
+补充一下，如果直接exec进入container的话，可以直接执行这个命令来授权apple ID
+``` bash
+/usr/local/bin/sync-icloud.sh --Initialise
+```
+
 docker镜像的GitHub页面有更加详细的关于icloudpd的各种参数的设置，各位有兴趣的话可以自行查阅。
 https://github.com/boredazfcuk/docker-icloudpd/blob/master/CONFIGURATION.md
