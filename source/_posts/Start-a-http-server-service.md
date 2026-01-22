@@ -14,7 +14,7 @@ nohup http-server &
 ```
 nohop will make the service is still running when quit the ssh session, the & at the end will make it run in the background
 
-### Usding this command to stop the service
+### Using this command to stop the service
 
 ``` bash
 pkill -f "http-server"
