@@ -1,5 +1,5 @@
 ---
-title: 这是一个测试文章
+title: How to add a new post on hexo blog
 date: 2023-12-17 15:45:16
 tags:
     - demo
