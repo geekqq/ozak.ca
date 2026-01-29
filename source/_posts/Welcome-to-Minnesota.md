@@ -10,13 +10,5 @@ tags:
 Saw this wonderful vedio on the twitter one day, it really touched my heart.
 This is for the people who were brutally murdered by the ICE agents.
 May Alex Pretti and Renee Good Rest In Peace.
-
-
-<video
-  src="/videos/welcome-to-minnesota.mp4"
-  controls
-  preload="metadata"
-  style="max-width: 100%;"
->
-  你的浏览器不支持 video 标签
-</video>
+___
+<video src="/videos/welcome-to-minnesota.mp4" controls preload="metadata" style="max-width: 100%;">你的浏览器不支持 video 标签</video>
